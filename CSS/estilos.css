@@ -1,5 +1,5 @@
 body{
-    color: red;
+    color: black;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     margin: 5%;
@@ -7,6 +7,8 @@ body{
 }
 
 #cabecera{
+    background: rgb(52, 51, 51);
+    background-image: url("Git/Imagenes/3.png") no-repeat;
     box-shadow: 0px 2px 10px 0px rgb(19, 19, 19,0.5);
     background: turquoise;
     color: black;
@@ -14,6 +16,18 @@ body{
     padding: 0.5em;
     font-weight: bold;
 }
+
+#cabecera #logo{
+    width: 19px;
+    vertical-align: middle;
+}
+
+#cabecera #tagline{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
 
 #container{
     width: 100%;
@@ -25,4 +39,9 @@ body{
 
 #container h1{
     font-size: 20px;
+}
+
+#post{
+    background: white;
+    padding: 1em;
 }
