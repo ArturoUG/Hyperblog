@@ -47,9 +47,10 @@ body{
     padding: 1em;
 =======
 #footer{
-    background: gray;
+    background: rgb(58, 57, 57);
     color: white;
     text-align: center;
+    margin-top: 40px;
     padding: 0.5em;
 >>>>>>> footer
 }
